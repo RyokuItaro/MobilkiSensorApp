@@ -14,7 +14,13 @@
         android:gravity="center"
         android:text="Naciśnij przycisk aby pobrać lokalizację"
         android:layout_weight="0"/>
-
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Naciśnij przycisk aby pobrać adres"
+        android:layout_weight="0"/>
 
     <LinearLayout
         android:layout_weight="1"
@@ -28,6 +34,13 @@
         android:layout_height="wrap_content"
         android:gravity="center|bottom"
         android:text="Pobierz lokalizację" />
+
+        <Button
+            android:id="@+id/getAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:text="Pobierz adres" />
 
     <Button
         android:id="@+id/getBackButton"
