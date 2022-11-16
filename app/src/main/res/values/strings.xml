@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="light_sensor_label">Light sensor value: </string>
+    <string name="gyro_sensor_label">Gyro sensor value: </string>
+</resources>
